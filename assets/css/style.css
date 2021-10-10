@@ -46,11 +46,11 @@ nav .brand-logo {
     background-color: #2c2cb1;
 }
 
-@media(max-width:415px) {
-    #theImage {
-        display: none;
-    }
-}
+/* #theImage {
+    width: min-content;
+    height: auto;
+    background-image: url('../images/full-new.png');
+} */
 
 button {
     align-items: center;
