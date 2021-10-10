@@ -1,10 +1,10 @@
 $('.carousel.carousel-slider').carousel({
     fullScreen: false,
     indicators: true,
-    padding: 50,
+    // padding: 50,
 });
 
-autoplay();
+// autoplay();
 
 function autoplay() {
     $('.carousel').carousel('next');
@@ -15,4 +15,7 @@ function autoplay() {
 // });
 $('.modal').modal();
 $('.sidenav').sidenav();
+$(".dropdown-trigger").dropdown({
+    hover: true,
+});
 $('.parallax').parallax();

@@ -14,21 +14,24 @@
 </head>
 
 <body>
-    <nav class="grey" role="navigation">
-        <div class="nav-wrapper container">
-            <!-- <img id="logo-container" href="./" class="brand-logo">Logo</a> -->
-            <a href="./index.html"> <img src="./assets/images/footer-logo-new-updated.png" class="brand-logo"
-                    alt=""></a>
-
-            <ul class="right hide-on-med-and-down">
-                <li><a href="./index.html" style="border-bottom: 4px solid white;">Home</a></li>
-                <li><a href="./aboutus.html">About Us</a></li>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+    <nav style="background-color: white; margin-bottom: 50px; border: 2px solid white;">
+        <div class="nav-wrapper" style="border-bottom: 2px solid white;">
+            <img src="./assets/images/footer-logo-new-updated.png" class="brand-logo
+                    alt="" style=" margin-bottom: 10px;">
+            <ul class="right hide-on-med-and-down" style="border: 2px solid white;">
+                <li><a href="./index.html">Overview</a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1" href="./products.html">Products</a>
+                </li>
                 <li><a href="./services.html">Services</a></li>
                 <li><a href="./industries.html">Industries</a></li>
                 <li><a href="./news.html">News</a></li>
-                <li><a href="./products.html">Products</a></li>
             </ul>
-
             <ul id="nav-mobile" class="sidenav">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./aboutus.html">About Us</a></li>
@@ -41,116 +44,144 @@
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>
+    <!-- <nav class="white" role="navigation" style="background-color: purple;">
+        <div class="nav-wrapper container" style="border: none;">
+            <img src="./assets/images/footer-logo-new-updated.png" class="brand-logo
+                    alt="">
 
-    <div class="carousel carousel-slider center">
-        <div class="carousel-item white-text" href="#one!" style="background-color: rgb(5, 5, 85);">
-            <div class="row" style="margin-top: 1%;">
-                <div class="col s12 m12 l6 left-align" style="margin-top: 10%;">
-                    <img src="./assets/images/full-new.png" height="450">
-                </div>
-                <div class="col s12 m12 l6">
-                    <span class="flow-text right-align" style="font-family: 'Yaldevi', sans-serif;">
-                        <h3 class="left-align">INTRODUCTION</h3>
-                        <h4 class="left-align">Who we are</h4>
-                        We are an expert team of engineers, business strategists and entrepreneurs who has many years of
-                        experience in industrial automation, water management, maritime, agriculture, logistics,
-                        enterprise evaluation and helping businesses define success strategies. We have successfully
-                        executed magnitudes of complex projects across the globe by offering creative and custom
-                        solutions.
-                    </span>
-                    <br>
-                    <button class="center-align">Explore more</button>
+            <ul class=" right hide-on-med-and-down">
+            <li><a href="./index.html">Overview</a></li>
+            <li>
+                <a class="dropdown-trigger" data-target="dropdown1" href="./aboutus.html">About Us
+                    <i class="material-icons right">arrow_drop_down</i>
+                </a>
+            </li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./industries.html">Industries</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./products.html">Products</a></li>
+            </ul>
 
+        </div>
+    </nav> -->
+
+    <div class="slider-holder" style="padding:1px;">
+        <div class="carousel carousel-slider center" style="height: 100vh; border-top: 5px solid white;">
+            <div class="carousel-item white-text" href="#one!"
+                style="background-color: rgb(5, 5, 85);height: max-content;">
+                <div class="row">
+                    <div class="col s12 m12 l6" id="theImage" style="position: right;">
+                        <img src="./assets/images/full-new.png">
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <span class="flow-text" style="font-family: 'Yaldevi', sans-serif;">
+                            <h3 class="left-align">INTRODUCTION</h3>
+                            <h4 class="left-align">Who we are</h4>
+                            We are an expert team of engineers, business strategists and entrepreneurs who has many
+                            years of
+                            experience in industrial automation, water management, maritime, agriculture, logistics,
+                            enterprise evaluation and helping businesses define success strategies. We have successfully
+                            executed magnitudes of complex projects across the globe by offering creative and custom
+                            solutions.
+                        </span>
+                        <br>
+                        <button class="center-align">Explore more</button>
+
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="carousel-item white-text" href="#two!" style="background-color: rgb(5, 5, 85);">
-            <div class="row" style="margin-top: 1%;">
-                <div class="col s12 m12 l6">
-                    <span class="flow-text right-align" style="font-family: 'Yaldevi', sans-serif;">
-                        <h3 class="left-align">OUR SERVICES</h3>
-                        <h4 class="left-align">What we do</h4>
-                        Evaluate the existing state of your system and identify opportunities, establish attainable
-                        goals to improve it, develop a plan to achieve the goal and implement a solution that can
-                        generate new revenues, improve profitability and productivity.
-                        <h4 class="left-align">IoT Vision and Strategy</h4>
-                        We work with key business and IT leaders to develop an IoT vision that sets objectives for the
-                        business to shoot for and to communicate that vision to key stakeholders. Part of this involves
-                        documenting the business’s critical success factors, and part of it entails using the business
-                        value to drive engagement. An effective IoT vision is not merely aspirational; it’s rational and
-                        deliberate.
-                    </span>
-                    <br>
-                    <button class="center-align">Explore more</button>
-                </div>
-                <div class="col s12 m12 l6 right-align" style="margin-top: 10%;">
-                    <img src="./assets/images/img-2.png" height="550">
-                </div>
-            </div>
-        </div>
-
-        <div class="carousel-item white-text" href="#three!" style="background-color: rgb(5, 5, 85);">
-            <div class="row" style="margin-top: 1%;">
-                <div class="col s12 m12 l6 left-align" style="margin-top: 10%;">
-                    <img src="./assets/images/Untitled-5.jpg" height="450">
-                </div>
-                <div class="col s12 m12 l6 ">
-                    <span class="flow-text right-align" style="font-family: 'Yaldevi', sans-serif;">
-                        <h3 class="left-align">OUR DOMAIN</h3>
-                        <h4 class="left-align">How we do</h4>
-                        By offering diversified smart solutions for manufacturing industries, agriculture, shipping,
-                        logistics and smart city water management.
-                        <h4 class="left-align">Smart Industry</h4>
-                        We provide specialized developed solutions for manufacturing, to increase operational
-                        efficiencies through automation, reduce operating expenses, provide effective assets management,
-                        real time machines and equipment feedback and data analytics for predictive maintenance.
-                    </span>
-                    <br>
-                    <button class="center-align">Explore more</button>
-
+            <div class="carousel-item white-text" href="#two!" style="background-color: rgb(5, 5, 85);">
+                <div class="row" style="margin-top: 1%;">
+                    <div class="col s12 m12 l6">
+                        <span class="flow-text right-align" style="font-family: 'Yaldevi', sans-serif;">
+                            <h3 class="left-align">OUR SERVICES</h3>
+                            <h4 class="left-align">What we do</h4>
+                            Evaluate the existing state of your system and identify opportunities, establish attainable
+                            goals to improve it, develop a plan to achieve the goal and implement a solution that can
+                            generate new revenues, improve profitability and productivity.
+                            <h4 class="left-align">IoT Vision and Strategy</h4>
+                            We work with key business and IT leaders to develop an IoT vision that sets objectives for
+                            the
+                            business to shoot for and to communicate that vision to key stakeholders. Part of this
+                            involves
+                            documenting the business’s critical success factors, and part of it entails using the
+                            business
+                            value to drive engagement. An effective IoT vision is not merely aspirational; it’s rational
+                            and
+                            deliberate.
+                        </span>
+                        <br>
+                        <button class="center-align">Explore more</button>
+                    </div>
+                    <div class="col s12 m12 l6 right-align" style="margin-top: 10%;">
+                        <img src="./assets/images/img-2.png" height="550">
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="carousel-item white-text" href="#four!" style="background-color: rgb(5, 5, 85);">
-            <div class="row center-align" style="margin-top: 1%;">
-                <div class="col s12 m12 l12">
-                    <span class="flow-text center-align"
-                        style="font-family: 'Yaldevi', sans-serif; font-size: 40px; margin-top: 10%;">
-                        <h3 class="center-align">WHY CHOOSE US</h3>
-                        <div class="row">
-                            <div class="col s6"><img src="./assets/images/vector-2.png" alt="" /></div>
-                            <div class="col s6"> 15 years of Excellence</div>
+            <div class="carousel-item white-text" href="#three!" style="background-color: rgb(5, 5, 85);">
+                <div class="row" style="margin-top: 1%;">
+                    <div class="col s12 m12 l6 left-align" style="margin-top: 10%;">
+                        <img src="./assets/images/Untitled-5.jpg" height="450">
+                    </div>
+                    <div class="col s12 m12 l6 ">
+                        <span class="flow-text right-align" style="font-family: 'Yaldevi', sans-serif;">
+                            <h3 class="left-align">OUR DOMAIN</h3>
+                            <h4 class="left-align">How we do</h4>
+                            By offering diversified smart solutions for manufacturing industries, agriculture, shipping,
+                            logistics and smart city water management.
+                            <h4 class="left-align">Smart Industry</h4>
+                            We provide specialized developed solutions for manufacturing, to increase operational
+                            efficiencies through automation, reduce operating expenses, provide effective assets
+                            management,
+                            real time machines and equipment feedback and data analytics for predictive maintenance.
+                        </span>
+                        <br>
+                        <button class="center-align">Explore more</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item white-text" href="#four!" style="background-color: rgb(5, 5, 85);">
+                <div class="row center-align" style="margin-top: 1%;">
+                    <div class="col s12 m12 l12">
+                        <span class="flow-text center-align"
+                            style="font-family: 'Yaldevi', sans-serif; font-size: 40px; margin-top: 10%;">
+                            <h3 class="center-align">WHY CHOOSE US</h3>
+                            <div class="row">
+                                <div class="col s6"><img src="./assets/images/vector-2.png" alt="" /></div>
+                                <div class="col s6"> 15 years of Excellence</div>
 
 
-                        </div>
-                        <div class="row">
-                            <div class="col s6"> <img src="./assets/images/vector-3.png" alt="" />
                             </div>
-                            <div class="col s6">
-                                68 yearly Employees
+                            <div class="row">
+                                <div class="col s6"> <img src="./assets/images/vector-3.png" alt="" />
+                                </div>
+                                <div class="col s6">
+                                    68 yearly Employees
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col s6"> <img src="./assets/images/vector-1.png" alt="" />
+                            <div class="row">
+                                <div class="col s6"> <img src="./assets/images/vector-1.png" alt="" />
+                                </div>
+                                <div class="col s6">
+                                    535 Registered Names
+                                </div>
                             </div>
-                            <div class="col s6">
-                                535 Registered Names
-                            </div>
-                        </div>
-                    </span>
-                    <br>
+                        </span>
+                        <br>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-    <div class="video-container center-align" style="background-color: rgb(5, 5, 85);">
+    <div class="video-container center-align" style="background-color: rgb(252, 252, 252);">
         <video width="720" height="440" autoplay muted controls
-            style="border: 10px solid rgb(70, 58, 58); border-radius: 2.5%;">
+            style="border: 10px solid rgb(5, 5, 85); border-radius: 2.5%;">
             <source src="./assets/videos/site - Google Drive.mp4" type=video/mp4>
         </video>
     </div>
