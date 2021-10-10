@@ -4,7 +4,7 @@ $('.carousel.carousel-slider').carousel({
     // padding: 50,
 });
 
-// autoplay();
+autoplay();
 
 function autoplay() {
     $('.carousel').carousel('next');
