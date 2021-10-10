@@ -14,31 +14,39 @@
 </head>
 
 <body>
-    <nav class="grey" role="navigation">
-        <div class="nav-wrapper container">
-            <!-- <img id="logo-container" href="./" class="brand-logo">Logo</a> -->
-            <a href="./index.html"> <img src="./assets/images/footer-logo-new-updated.png" class="brand-logo"
-                    alt=""></a>
-
-            <ul class="right hide-on-med-and-down">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./aboutus.html">About Us</a></li>
-                <li><a href="./services.html" style="border-bottom: 4px solid white;">Services</a></li>
-                <li><a href="./industries.html">Industries</a></li>
-                <li><a href="./news.html">News</a></li>
-                <li><a href="./products.html">Products</a></li>
-            </ul>
-
-            <ul id="nav-mobile" class="sidenav">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./aboutus.html">About Us</a></li>
+    <ul id="dropdown1" class="dropdown-content">
+        <li style="background-color: transparent; color: transparent;"><a href="#!"
+                style="background-color: transparent;"></a></li>
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+    <nav style="height: fit-content;">
+        <div class="nav-wrapper" style="background-color: orange;">
+            <div class="container" style="position: absolute;">
+                <img src="./assets/images/footer-logo-new-updated.png" class="brand-logo
+                alt="" />
+            </div>
+            <ul class="right hide-on-med-and-down" style="background-color: rebeccapurple; position: relative; right: 200px;">
+                <li><a href="./index.html">Overview</a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1" href="./products.html">Products</a>
+                </li>
                 <li><a href="./services.html">Services</a></li>
                 <li><a href="./industries.html">Industries</a></li>
                 <li><a href="./news.html">News</a></li>
-                <li><a href="./products.html">Products</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div>
+                </ul>
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutus.html">About Us</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./industries.html">Industries</a></li>
+                    <li><a href="./news.html">News</a></li>
+                    <li><a href="./products.html">Products</a></li>
+
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
     </nav>
 
     <div id="index-banner" class="parallax-container" style="width: 100%;">
